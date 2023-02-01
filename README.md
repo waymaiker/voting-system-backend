@@ -36,7 +36,7 @@ Divided into 3 files
 
 ### METHODS
 
-We add tests to make sure that **a DoS attack** was not possible.
+We add tests to make sure that **a DoS attack** was not possible <br/>
 See the test here https://github.com/waymaiker/dapps-voting-system/blob/master/test/unit/votingsystem_methods.test.js#L145
 
 
@@ -66,8 +66,20 @@ yarn hardhat node
 
 #### In an other terminal tab
 ```shell
-# Deploy your smart contract
+# Deploy your smart contract on localhost hardhat
 yarn hardhat deploy
+```
+
+#### If you want to deploy on an other network
+
+1- Add the network name and Id into this [helper-hardhat-config.js](https://github.com/waymaiker/dapps-voting-system/blob/master/helper-hardhat-config.js) <br/>
+2- Make sur your .env file is all set with you RPC nodes Api Key, Private Key and the Etherscan Api Key <br/>
+3- Configure your [hardhat.config.js](https://github.com/waymaiker/dapps-voting-system/blob/master/hardhat.config.js) <br/>
+4- Then execute this command
+
+```shell
+# Deploy your smart contract on testnet GOERLI
+yarn hardhat deploy --network goerli
 ```
 
 #### test commands
@@ -81,4 +93,5 @@ yarn hardhat coverage
 * https://www.chaijs.com/api/bdd/
 * https://hardhat.org/tutorial/testing-contracts
 * https://hardhat.org/hardhat-chai-matchers/docs/overview
+* https://www.alchemy.com/
 * https://docs.ethers.org/v5/api/utils/bignumber/
