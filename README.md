@@ -2,17 +2,6 @@
 
 Alyra course project - phase 3
 
-A small organization has decided, to use a new vote system.  
-All voters are known to the organization and are whitelisted using their Ethereum address.   
-They can submit new proposals during a proposal registration session and can vote on proposals only during the voting session.  
-When the administrator has tallied the votes, the vote is closed.
-
-Few rules:  
-✔️ Voting is not secret for users added to the Whitelist.  
-✔️ Each voter can see the votes of others.  
-✔️ The winner is determined by simple majority.  
-✔️ The proposal that gets the most votes wins.  
-
 ## Contents
 - [Important](#important)
 - [Tests](#tests)
@@ -21,23 +10,14 @@ Few rules:
 - [Resources](#resources)
 
 ## Important
-
-- [My App demo on loom](https://www.loom.com/share/2df1c07a70cd42c6abd4d19e9b214e01)
 - [Client repository](https://github.com/waymaiker/nextjs-voting-system)
-- [Vercel app](https://nextjs-voting-system-mdczrnyz7-wdevblockchain-gmailcom.vercel.app/)
 
 ## Tests
-Here I focused on having at least 90% of branch tests coverage.  
-
-![Ceci est un exemple d’image](https://github.com/waymaiker/voting-system/blob/master/test_coverage.png) 
-
-***Currently having 52 tests.***  
-Divided into 3 files
-
 ### METHODS
 
 We add tests to make sure that **a DoS attack** was not possible <br/>
-See the test here https://github.com/waymaiker/dapps-voting-system/blob/master/test/unit/votingsystem_methods.test.js#L145
+Added code into [VotingSytem.sol](https://github.com/waymaiker/dapps-voting-system/blob/master/contracts/VotingSystem.sol#L89) <br />
+The Javascript test [here](https://github.com/waymaiker/dapps-voting-system/blob/master/test/unit/votingsystem_methods.test.js#L145)
 
 
 ## How to use this project
