@@ -7,6 +7,7 @@ Alyra course project - phase 3
 - [Tests](#tests)
   - [Methods](#methods)
 - [How to use this project](#how-to-use-this-project)
+- [Need to deploy the contract on Goerli](#need-to-deploy-the-contract-on-goerli)
 - [Resources](#resources)
 
 ## Important
@@ -55,8 +56,9 @@ yarn hardhat deploy
 1- Add the network name and Id into this [helper-hardhat-config.js](https://github.com/waymaiker/dapps-voting-system/blob/master/helper-hardhat-config.js) <br/>
 2- Make sur your .env file is all set with you RPC nodes Api Key, Private Key and the Etherscan Api Key <br/>
 3- Configure your [hardhat.config.js](https://github.com/waymaiker/dapps-voting-system/blob/master/hardhat.config.js) <br/>
-4- Then execute this command
+4- Then execute the next command
 
+#### Need to deploy the contract on Goerli
 ```shell
 # Deploy your smart contract on testnet GOERLI
 yarn hardhat deploy --network goerli
