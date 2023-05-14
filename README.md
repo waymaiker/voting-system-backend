@@ -14,12 +14,28 @@ Alyra course project - phase 3
 - [Client repository](https://github.com/waymaiker/nextjs-voting-system)
 
 ## Tests
-### METHODS
-
-We add tests to make sure that **a DoS attack** was not possible <br/>
+### DOS Attack
+We added tests to make sure that **a DoS attack** was not possible <br/>
 Added code into [VotingSytem.sol](https://github.com/waymaiker/dapps-voting-system/blob/master/contracts/VotingSystem.sol#L89) <br />
 The Javascript test [here](https://github.com/waymaiker/dapps-voting-system/blob/master/test/unit/votingsystem_methods.test.js#L145)
 
+***Currently having 50 tests.***  
+Divided into 3 files: 
+
+### WORKFLOW
+[file - votingsystem_workflow.test.js](https://github.com/waymaiker/voting-system/blob/master/test/integration/voingsystem_workflow.test.js)
+
+![Ceci est un exemple d’image](https://github.com/waymaiker/voting-system/blob/master/tests_description_workflows.png)
+
+### METHODS
+[file - votingsystem_methods.test.js](https://github.com/waymaiker/voting-system/blob/master/test/unit/votingsystem_methods.test.js)
+#### What are required to them to work well, what kind of event they should emit while working well and what could make them not working
+![Ceci est un exemple d’image](https://github.com/waymaiker/voting-system/blob/master/tests_description_methods.png)
+
+### STATES
+[file - votingsystem_state.test.js](https://github.com/waymaiker/voting-system/blob/master/test/unit/votingsytem_state.test.js)
+#### What are required to them to work well, what kind of event they should emit while working well and what could make them not working
+![Ceci est un exemple d’image](https://github.com/waymaiker/voting-system/blob/master/tests_description_state.png)
 
 ## How to use this project
 This project will require that you have already installed
