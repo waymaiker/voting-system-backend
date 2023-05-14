@@ -5,7 +5,9 @@ Alyra course project - phase 3
 ## Contents
 - [Important](#important)
 - [Tests](#tests)
+  - [Workflow](#workflow)
   - [Methods](#methods)
+  - [States](#states)
 - [How to use this project](#how-to-use-this-project)
 - [Need to deploy the contract on Goerli](#need-to-deploy-the-contract-on-goerli)
 - [Resources](#resources)
