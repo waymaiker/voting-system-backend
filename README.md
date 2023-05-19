@@ -1,7 +1,5 @@
 # DApps Voting system
 
-Alyra course project - phase 3
-
 ## Contents
 - [Important](#important)
 - [Tests](#tests)
